@@ -1,0 +1,420 @@
+/*******************************************************************************************************************/
+/**************************************************1600PX***********************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 1600px) {
+  body {
+    section {
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .s1 {
+        .panel {
+          width: auto;
+        }
+      }
+      .s2 {
+        flex-direction: row;
+      }
+    }
+
+    aside {
+      h1 {
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+
+    article {
+      margin: 10% 10px;
+      .wrap {
+        div {
+          align-items: center;
+          padding: 0;
+          button {
+            margin: 10px;
+          }
+          p:not(.BigText) {
+            width: auto;
+          }
+          h1 {
+            text-align: center;
+          }
+        }
+      }
+      .wrapMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+/*******************************************************************************************************************/
+/**************************************************1400PX***********************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 1400px) {
+  body {
+    header {
+      .information {
+        width: auto;
+      }
+    }
+    footer {
+      div.wrapperFooter {
+        .haut {
+          fieldset {
+            border: none;
+            padding: 7px 20px;
+            input {
+              border: solid $white 2px;
+              padding: 15px;
+              background-color: transparent;
+              color: $white;
+              opacity: 0.67;
+              outline: none;
+              font-family: $sub-title;
+              font-size: 22px;
+              text-transform: initial;
+              width: 700px;
+            }
+          }
+        }
+        .bas {
+          fieldset {
+            textarea {
+              width: 700px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*******************************************************************************************************************/
+/**************************************************1200PX************************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 1200px) {
+  body {
+    section {
+      padding: 0;
+    }
+    .container {
+      padding: 0;
+    }
+    .reminder {
+      flex-direction: column;
+
+      p {
+        text-align: center;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+/*******************************************************************************************************************/
+/**************************************************868PX************************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 868px) {
+  body {
+    .wrapper {
+      .globalNav {
+        padding: 20px 55px 20px 15px;
+      }
+      .s2 {
+        flex-direction: column;
+      }
+      main {
+        div.contenu {
+          width: 100%;
+          padding: 0;
+          h1 {
+            text-align: center;
+            font-size: 43px;
+          }
+          p {
+            text-align: center;
+            font-size: 25px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+    article {
+      margin: 10% 10px;
+      .wrap {
+        div {
+          align-items: center;
+          padding: 0;
+          button {
+            margin: 10px;
+          }
+          p:not(.BigText) {
+            width: auto;
+          }
+          h1 {
+            text-align: center;
+          }
+        }
+      }
+      .wrapMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+    }
+    .reminder {
+      p {
+        padding: 0;
+        text-align: center;
+      }
+    }
+    footer {
+      div.wrapperFooter {
+        padding: 50px 20px;
+        h1 {
+          text-align: center;
+        }
+        .haut {
+          fieldset {
+            padding: .35em .625em .75em;
+            input {
+              text-transform: initial;
+              width: 500px;
+            }
+
+          }
+        }
+        .bas {
+          fieldset {
+            padding: .35em .625em .75em;
+            textarea {
+              text-transform: initial;
+              width: 500px;
+            }
+
+          }
+        }
+        .links {
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*******************************************************************************************************************/
+/**************************************************575PX************************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 575px) {
+  body {
+    main{
+      padding: 0;
+    }
+    header {
+      .information {
+        height: auto;
+        h1 {
+          font-size: 40px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+    .wrapper {
+      .globalNav {
+        width: 90%;
+      }
+    }
+    section {
+      .s3 {
+        figure {
+          width: 250px;
+          height: auto;
+          img {
+            width: 250px;
+          }
+        }
+      }
+    }
+    footer {
+      div.wrapperFooter {
+        .haut {
+          fieldset {
+            input {
+              width: 300px;
+            }
+          }
+        }
+
+        .bas {
+          fieldset {
+            textarea {
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*******************************************************************************************************************/
+/**************************************************375PX************************************************************/
+/*******************************************************************************************************************/
+
+@media only screen and (max-width: 375px) {
+  body {
+    header {
+      .formulaire {
+        h1 {
+          font-size: 2em;
+        }
+      }
+      .information {
+        height: auto;
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+    .wrapper {
+      .globalNav {
+        padding: 20px 50px 20px 15px;
+        width: 83%;
+        #logo {
+          font-size: 22px;
+        }
+        #menuToggle {
+          right: 30px;
+          #menuToggle span {
+            width: 43px;
+            height: 7px;
+          }
+        }
+        menu .li {
+          font-size: 32px;
+        }
+      }
+
+      //-----------------À PROPOS
+      main {
+        padding: 50px 25px;
+        div.contenu {
+          width: 100%;
+          padding: 0;
+          h1 {
+            text-align: center;
+            font-size: 43px;
+          }
+          p {
+            text-align: center;
+            font-size: 25px;
+            font-weight: normal;
+          }
+        }
+      }
+      //-----------------MES COMPÉTENCES
+      section {
+        padding: 0;
+        .s1 {
+          h1 {
+            text-align: center;
+          }
+        }
+        .s2 {
+          flex-direction: column;
+        }
+      }
+      //-----------------REMINDER
+      .reminder {
+        p {
+          padding: 0;
+          text-align: center;
+        }
+      }
+      //-----------------MES PROJETS
+      .container {
+        .gallery {
+          .gallery-item {
+            .hidden-bot {
+              width: 100%;
+              padding-bottom: 20px;
+            }
+          }
+        }
+      }
+      //----------------------------------DEUXIÈME PAGE
+      //-----------------ASIDE ******
+      aside {
+        h1 {
+          font-size: 40px;
+          text-align: center;
+        }
+      }
+      //-----------------ARTICLE *******
+      article {
+        margin: 10% 10px;
+        .wrap {
+          img {
+            width: 350px;
+            height: 200px;
+          }
+          div {
+            align-items: center;
+            padding: 0;
+            button {
+              margin: 10px;
+            }
+            p:not(.BigText) {
+              width: auto;
+              text-align: center;
+            }
+            h1 {
+              text-align: center;
+            }
+          }
+        }
+      }
+      //-----------------PROJETS  *******
+      .none {
+        right: -25px;
+        div {
+          .BigText {
+            width: auto;
+          }
+        }
+        img {
+          width: 350px;
+          height: 200px;
+        }
+      }
+      div.wrapperFooter {
+        h1 {
+          padding: 0;
+        }
+      }
+      .copyright{
+        padding: 15px;
+      }
+    }
+  }
+}
+

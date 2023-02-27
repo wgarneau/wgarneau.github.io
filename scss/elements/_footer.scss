@@ -1,0 +1,137 @@
+footer {
+  background: url("../img/BackgroundFixed.png") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  div.wrapperFooter {
+    padding: 150px 100px;
+    h1 {
+      font-family: $sub-title;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding: 0 0 30px 25px;
+      color: $color-sub-title;
+    }
+    p {
+      color: $white;
+      font-family: $text;
+      font-size: 22px;
+      line-height: 40px;
+      font-weight: lighter;
+      margin-bottom: 0;
+      a {
+        text-decoration: none;
+        span {
+          text-transform: uppercase;
+          color: $color-sub-title;
+          font-weight: bold;
+          font-size: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    /*******************************************************************************************************************/
+    /**************************************************FORM*************************************************************/
+    /*******************************************************************************************************************/
+
+    .haut {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      fieldset {
+        border: none;
+        padding: 20px;
+        input {
+          border: solid $white 2px;
+          padding: 15px;
+          background-color: transparent;
+          color: $white;
+          opacity: 0.67;
+          outline: none;
+          font-family: $sub-title;
+          font-size: 22px;
+          width: 500px;
+        }
+      }
+    }
+
+    .bas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      fieldset {
+        width: auto;
+        border: none;
+        margin-bottom: 20px;
+        textarea {
+          width: 1080px;
+          border: solid $white 2px;
+          padding: 5px 15px 30px;
+          background-color: transparent;
+          color: $white;
+          opacity: 0.67;
+          outline: none;
+          font-family: $sub-title;
+          font-size: 22px;
+        }
+      }
+    }
+
+    /*******************************************************************************************************************/
+    /**************************************************SECTION DU BAS***************************************************/
+    /*******************************************************************************************************************/
+
+    .g-recaptcha {
+      display: flex;
+      justify-content: center;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      fieldset {
+        border: none;
+        padding: 20px;
+        margin: 0;
+        input {
+          text-transform: uppercase;
+          color: $white;
+          background-color: transparent;
+          border: solid $color-sub-title 2px;
+          text-decoration: none;
+          font-family: $text;
+          font-weight: 500;
+          padding: 15px 25px;
+          font-size: 20px;
+          transition: .3s ease-in-out;
+          outline: none;
+        }
+        input:hover {
+          background-color: $color-sub-title;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  /*******************************************************************************************************************/
+  /**************************************************COPYRIGHT********************************************************/
+  /*******************************************************************************************************************/
+
+  .copyright {
+    padding-bottom: 30px;
+    margin: 0;
+    color: $white;
+    font-family: $text;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
